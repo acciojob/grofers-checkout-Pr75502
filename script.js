@@ -6,6 +6,7 @@ const getSum = () => {
 //Add your code here
 	let prices=document.querySelectorAll(".price")
 	let h1 = document.createElement("h1")
+	h1.id="ans"
 	
 	let total=0;
 	prices.forEach(price=>{
